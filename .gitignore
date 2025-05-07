@@ -1,0 +1,9 @@
+# Ігнорування службових файлів Visual Studio
+.vs/
+*.user
+*.suo
+*.vcxproj.user
+*.cache
+*.db
+bin/
+obj/
