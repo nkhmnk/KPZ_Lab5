@@ -1,0 +1,385 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task6\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\lightelementnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|solutionrelative:task5\\lightelementnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|solutionrelative:task5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|solutionrelative:task5\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\lightnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|solutionrelative:task5\\lightnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\lighttextnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|solutionrelative:task5\\lighttextnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task6\\LightTextNode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task6\\LightNode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task6\\LightElementNode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task6\\LightElementFlyweight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task6\\FlyweightFactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task4\\ITextReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task4\\SmartTextReaderLocker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task4\\SmartTextChecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task4\\SmartTextReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task4\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\Shapes\\Square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\Shapes\\Triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\Shapes\\Circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\Shapes\\Shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\RasterRenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\VectorRenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\IRenderer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LightTextNode.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task6\\LightTextNode.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\lab3\\task6\\LightTextNode.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task6\\LightTextNode.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\lab3\\task6\\LightTextNode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T20:35:47.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LightNode.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task6\\LightNode.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\lab3\\task6\\LightNode.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task6\\LightNode.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\lab3\\task6\\LightNode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T20:35:17.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LightElementNode.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task6\\LightElementNode.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\lab3\\task6\\LightElementNode.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task6\\LightElementNode.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\lab3\\task6\\LightElementNode.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwCgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T20:34:45.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LightElementFlyweight.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task6\\LightElementFlyweight.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\lab3\\task6\\LightElementFlyweight.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task6\\LightElementFlyweight.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\lab3\\task6\\LightElementFlyweight.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T20:34:06.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FlyweightFactory.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task6\\FlyweightFactory.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\lab3\\task6\\FlyweightFactory.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task6\\FlyweightFactory.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\lab3\\task6\\FlyweightFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T20:33:26.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task6\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\lab3\\task6\\Program.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task6\\Program.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\lab3\\task6\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T19:15:49.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\Enums.cs",
+              "RelativeDocumentMoniker": "task5\\Enums.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\Enums.cs",
+              "RelativeToolTip": "task5\\Enums.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T18:41:12.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LightElementNode.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\LightElementNode.cs",
+              "RelativeDocumentMoniker": "task5\\LightElementNode.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\LightElementNode.cs",
+              "RelativeToolTip": "task5\\LightElementNode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T21:18:46.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LightTextNode.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\LightTextNode.cs",
+              "RelativeDocumentMoniker": "task5\\LightTextNode.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\LightTextNode.cs",
+              "RelativeToolTip": "task5\\LightTextNode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T21:17:45.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LightNode.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\LightNode.cs",
+              "RelativeDocumentMoniker": "task5\\LightNode.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\LightNode.cs",
+              "RelativeToolTip": "task5\\LightNode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T21:17:19.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\Program.cs",
+              "RelativeDocumentMoniker": "task5\\Program.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\Program.cs",
+              "RelativeToolTip": "task5\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T20:42:05.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ITextReader.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task4\\ITextReader.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\lab3\\task4\\ITextReader.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task4\\ITextReader.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\lab3\\task4\\ITextReader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T19:55:27.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SmartTextReaderLocker.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task4\\SmartTextReaderLocker.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\lab3\\task4\\SmartTextReaderLocker.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task4\\SmartTextReaderLocker.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\lab3\\task4\\SmartTextReaderLocker.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:53:37.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SmartTextChecker.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task4\\SmartTextChecker.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\lab3\\task4\\SmartTextChecker.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task4\\SmartTextChecker.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\lab3\\task4\\SmartTextChecker.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwB4AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:53:11.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SmartTextReader.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task4\\SmartTextReader.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\lab3\\task4\\SmartTextReader.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task4\\SmartTextReader.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\lab3\\task4\\SmartTextReader.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:52:01.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task4\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\lab3\\task4\\Program.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task4\\Program.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\lab3\\task4\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:46:57.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Square.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\Shapes\\Square.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\lab3\\task3\\Shapes\\Square.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\Shapes\\Square.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\lab3\\task3\\Shapes\\Square.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:30:35.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Triangle.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\Shapes\\Triangle.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\lab3\\task3\\Shapes\\Triangle.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\Shapes\\Triangle.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\lab3\\task3\\Shapes\\Triangle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:30:55.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Circle.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\Shapes\\Circle.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\lab3\\task3\\Shapes\\Circle.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\Shapes\\Circle.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\lab3\\task3\\Shapes\\Circle.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:30:18.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Shape.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\Shapes\\Shape.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\lab3\\task3\\Shapes\\Shape.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\Shapes\\Shape.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\lab3\\task3\\Shapes\\Shape.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAQAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:29:36.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RasterRenderer.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\RasterRenderer.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\lab3\\task3\\RasterRenderer.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\RasterRenderer.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\lab3\\task3\\RasterRenderer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:29:00.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "VectorRenderer.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\VectorRenderer.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\lab3\\task3\\VectorRenderer.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\VectorRenderer.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\lab3\\task3\\VectorRenderer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:28:40.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IRenderer.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\IRenderer.cs",
+              "RelativeDocumentMoniker": "..\\..\\Lab3\\lab3\\task3\\IRenderer.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab3\\lab3\\task3\\IRenderer.cs",
+              "RelativeToolTip": "..\\..\\Lab3\\lab3\\task3\\IRenderer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T10:27:55.764Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1329,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
