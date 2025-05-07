@@ -31,6 +31,20 @@ namespace LightHTML
 
             Console.WriteLine("=== Внутрішній HTML ===");
             Console.WriteLine(ul.InnerHTML);
+
+            //Ітерація
+            Console.WriteLine("=== DFS (глибина) ===");
+            foreach (var node in ul.EnumerateDepthFirst())
+            {
+                Console.WriteLine(node.OuterHTML);
+            }
+
+            Console.WriteLine("=== BFS (ширина) ===");
+            foreach (var node in ul.EnumerateBreadthFirst())
+            {
+                Console.WriteLine(node.OuterHTML);
+            }
+
         }
     }
 }
