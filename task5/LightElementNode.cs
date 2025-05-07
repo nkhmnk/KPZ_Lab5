@@ -85,5 +85,24 @@ namespace task5
 
             return sb.ToString();
         }
+
+        public IEnumerable<LightNode> EnumerateDepthFirst()
+        {
+            yield return this;
+
+            foreach (var child in children)
+            {
+                if (child is LightElementNode element)
+                {
+                    foreach (var nested in element.EnumerateDepthFirst())
+                        yield return nested;
+                }
+                else
+                {
+                    yield return child;
+                }
+            }
+        }
+
     }
 }
