@@ -10,7 +10,8 @@ namespace LightHTML
         {
             Console.OutputEncoding = Encoding.UTF8;
 
-            var ul = new LightElementNode("ul");
+            // var ul = new LightElementNode("ul");
+            var ul = new DebugElementNode("ul");
             ul.AddCssClass("my-list");
 
             var li1 = new LightElementNode("li");

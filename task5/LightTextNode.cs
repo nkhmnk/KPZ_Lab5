@@ -13,8 +13,10 @@ namespace task5
         public LightTextNode(string text)
         {
             Text = text ?? throw new ArgumentNullException(nameof(text));
+            OnTextRendered();
         }
 
+        protected virtual void OnTextRendered() { }
         public override string OuterHTML => Text;
         public override string InnerHTML => Text;
     }

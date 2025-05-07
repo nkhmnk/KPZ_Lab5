@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DebugElementNode.cs" />
     <Compile Include="Enums.cs" />
     <Compile Include="LightElementNode.cs" />
     <Compile Include="LightNode.cs" />

@@ -11,6 +11,14 @@ namespace task5
         private readonly List<LightNode> children;
         private readonly HashSet<string> cssClasses;
 
+        protected virtual void OnCreated() { }
+        protected virtual void OnInserted(LightNode child) { }
+        protected virtual void OnRemoved(LightNode child) { }
+        protected virtual void OnStylesApplied() { }
+        protected virtual void OnClassListApplied() { }
+        protected virtual void OnTextRendered() { }
+
+
         public string TagName { get; }
         public DisplayType Display { get; }
         public ClosingType Closing { get; }
@@ -24,11 +32,14 @@ namespace task5
             Closing = closing;
             children = new List<LightNode>();
             cssClasses = new HashSet<string>();
+
+            OnCreated();
         }
 
         public void AddChild(LightNode child)
         {
             children.Add(child ?? throw new ArgumentNullException(nameof(child)));
+            OnInserted(child);
         }
 
         public void AddCssClass(string cssClass)
@@ -36,6 +47,10 @@ namespace task5
             if (string.IsNullOrWhiteSpace(cssClass))
                 throw new ArgumentException("CSS клас не може бути порожнім", nameof(cssClass));
             cssClasses.Add(cssClass);
+
+
+            OnClassListApplied();
+            OnStylesApplied();
         }
 
         public override string OuterHTML => GenerateHTML(0);
