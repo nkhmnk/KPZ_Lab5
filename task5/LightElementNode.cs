@@ -104,5 +104,25 @@ namespace task5
             }
         }
 
+        public IEnumerable<LightNode> EnumerateBreadthFirst()
+        {
+            var queue = new Queue<LightNode>();
+            queue.Enqueue(this);
+
+            while (queue.Count > 0)
+            {
+                var current = queue.Dequeue();
+                yield return current;
+
+                if (current is LightElementNode element)
+                {
+                    foreach (var child in element.children)
+                    {
+                        queue.Enqueue(child);
+                    }
+                }
+            }
+        }
+
     }
 }
