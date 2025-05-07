@@ -101,6 +101,17 @@ namespace task5
             return sb.ToString();
         }
 
+        public void RemoveChild(LightNode child)
+        {
+            if (child == null) throw new ArgumentNullException(nameof(child));
+
+            if (children.Remove(child))
+            {
+                OnRemoved(child);
+            }
+        }
+
+
         public IEnumerable<LightNode> EnumerateDepthFirst()
         {
             yield return this;
