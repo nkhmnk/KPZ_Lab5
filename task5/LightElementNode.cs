@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace task5
 {
-    public class LightElementNode : LightNode
+    public class LightElementNode : LightNode, ILightNodeEnumerable
     {
         private readonly List<LightNode> children;
         private readonly HashSet<string> cssClasses;
@@ -100,5 +100,44 @@ namespace task5
 
             return sb.ToString();
         }
+
+        public IEnumerable<LightNode> EnumerateDepthFirst()
+        {
+            yield return this;
+
+            foreach (var child in children)
+            {
+                if (child is LightElementNode element)
+                {
+                    foreach (var nested in element.EnumerateDepthFirst())
+                        yield return nested;
+                }
+                else
+                {
+                    yield return child;
+                }
+            }
+        }
+
+        public IEnumerable<LightNode> EnumerateBreadthFirst()
+        {
+            var queue = new Queue<LightNode>();
+            queue.Enqueue(this);
+
+            while (queue.Count > 0)
+            {
+                var current = queue.Dequeue();
+                yield return current;
+
+                if (current is LightElementNode element)
+                {
+                    foreach (var child in element.children)
+                    {
+                        queue.Enqueue(child);
+                    }
+                }
+            }
+        }
+
     }
 }
