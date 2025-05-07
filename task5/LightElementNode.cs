@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace task5
 {
-    public class LightElementNode : LightNode
+    public class LightElementNode : LightNode, ILightNodeEnumerable
     {
         private readonly List<LightNode> children;
         private readonly HashSet<string> cssClasses;
