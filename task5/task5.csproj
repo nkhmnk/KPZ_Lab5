@@ -56,9 +56,14 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RemoveElementCommand.cs" />
+    <Compile Include="State\HoveredState.cs" />
+    <Compile Include="State\IElementState.cs" />
+    <Compile Include="State\NormalState.cs" />
+    <Compile Include="State\SelectedState.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

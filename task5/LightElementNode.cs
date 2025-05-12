@@ -2,7 +2,7 @@
 using System;
 using System.Text;
 using System.Linq;
-
+using task5.State;
 
 namespace task5
 {
@@ -10,6 +10,20 @@ namespace task5
     {
         private readonly List<LightNode> children;
         private readonly HashSet<string> cssClasses;
+        private IElementState _state;
+
+        // Конструктор класу, який передає tagName до конструктора базового класу
+        public LightElementNode(string tagName, DisplayType display = DisplayType.Block, ClosingType closing = ClosingType.Normal)
+          : base(tagName)  // Викликаємо конструктор LightNode і передаємо tagName
+        {
+            Display = display;
+            Closing = closing;
+            children = new List<LightNode>();
+            cssClasses = new HashSet<string>();
+            _state = new NormalState(); // Ініціалізація стану
+
+            OnCreated();
+        }
 
         protected virtual void OnCreated() { }
         protected virtual void OnInserted(LightNode child) { }
@@ -18,23 +32,11 @@ namespace task5
         protected virtual void OnClassListApplied() { }
         protected virtual void OnTextRendered() { }
 
-
         public string TagName { get; }
         public DisplayType Display { get; }
         public ClosingType Closing { get; }
         public IReadOnlyCollection<string> CssClasses => cssClasses;
         public int ChildCount => children.Count;
-
-        public LightElementNode(string tagName, DisplayType display = DisplayType.Block, ClosingType closing = ClosingType.Normal)
-        {
-            TagName = tagName ?? throw new ArgumentNullException(nameof(tagName));
-            Display = display;
-            Closing = closing;
-            children = new List<LightNode>();
-            cssClasses = new HashSet<string>();
-
-            OnCreated();
-        }
 
         public void AddChild(LightNode child)
         {
@@ -42,12 +44,12 @@ namespace task5
             OnInserted(child);
         }
 
+        // Додано метод для додавання CSS класу
         public void AddCssClass(string cssClass)
         {
             if (string.IsNullOrWhiteSpace(cssClass))
                 throw new ArgumentException("CSS клас не може бути порожнім", nameof(cssClass));
             cssClasses.Add(cssClass);
-
 
             OnClassListApplied();
             OnStylesApplied();
@@ -119,7 +121,6 @@ namespace task5
             }
         }
 
-
         public IEnumerable<LightNode> EnumerateDepthFirst()
         {
             yield return this;
@@ -157,6 +158,7 @@ namespace task5
                 }
             }
         }
+
         public void SetCssClasses(IEnumerable<string> classes)
         {
             cssClasses.Clear();
@@ -167,5 +169,30 @@ namespace task5
             }
         }
 
+        // Метод для оновлення стану
+        public void SetState(IElementState newState)
+        {
+            _state = newState;
+        }
+
+        // Перевірка та додавання класу через _state
+        public void AddClass(string cssClass)
+        {
+            if (_state == null)
+            {
+                _state = new NormalState(); // Якщо стан не ініціалізовано, ініціалізуємо його
+            }
+            _state.AddClass(this, cssClass);
+        }
+
+        // Перевірка та видалення класу через _state
+        public void RemoveClass(string cssClass)
+        {
+            if (_state == null)
+            {
+                _state = new NormalState(); // Якщо стан не ініціалізовано, ініціалізуємо його
+            }
+            _state.RemoveClass(this, cssClass);
+        }
     }
 }
