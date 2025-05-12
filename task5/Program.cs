@@ -4,6 +4,7 @@ using task5;
 using task5.State;
 using System.Collections.Generic;
 using task5.Visitor;
+using task5._6__HtmlMemento;
 
 namespace LightHTML
 {
@@ -106,6 +107,30 @@ namespace LightHTML
             div.Accept(addIdVisitor);
 
             Console.WriteLine(div.OuterHTML);
+
+
+            //6
+            var history = new HtmlHistory();
+
+            // Save snapshot
+            history.Save(new HtmlMemento(ul.OuterHTML));
+
+            // Зміна DOM
+            var li4 = new LightElementNode("li");
+            li4.AddChild(new LightTextNode("Четвертий елемент списку"));
+            ul.AddChild(li4);
+
+            Console.WriteLine("=== Після додавання четвертого елемента ===");
+            Console.WriteLine(ul.OuterHTML);
+
+            // Undo
+            if (history.CanUndo)
+            {
+                var snapshot = history.Undo();
+                Console.WriteLine("=== Відновлено попередній стан HTML ===");
+                Console.WriteLine(snapshot?.HtmlSnapshot);
+            }
+
 
         }
     }

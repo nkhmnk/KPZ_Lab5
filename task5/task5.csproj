@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="%286%29 HtmlMemento\HtmlHistory.cs" />
+    <Compile Include="%286%29 HtmlMemento\HtmlMemento.cs" />
     <Compile Include="AddElementCommand.cs" />
     <Compile Include="ChangeClassCommand.cs" />
     <Compile Include="CommandInvoker.cs" />
