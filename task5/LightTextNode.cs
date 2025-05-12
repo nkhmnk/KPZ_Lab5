@@ -9,18 +9,20 @@ namespace task5
     public class LightTextNode : LightNode
     {
         public string Text { get; }
+        public string AdditionalText { get; }
 
-        // Тепер передаємо tagName в конструктор базового класу
-        public LightTextNode(string tagName, string text) : base(tagName)
+        // Конструктор класса
+        public LightTextNode(string text, string additionalText = "") : base("text")
         {
-            Text = text ?? throw new ArgumentNullException(nameof(text));
-            OnTextRendered();
+            Text = text;
+            AdditionalText = additionalText;
         }
 
-        protected virtual void OnTextRendered() { }
+        // Реализация абстрактного свойства OuterHTML
+        public override string OuterHTML => $"<>{Text}{(string.IsNullOrEmpty(AdditionalText) ? "" : $" {AdditionalText}")}</>";
 
-        public override string OuterHTML => Text;
-        public override string InnerHTML => Text;
+        // Реализация абстрактного свойства InnerHTML
+        public override string InnerHTML => Text + (string.IsNullOrEmpty(AdditionalText) ? "" : $" {AdditionalText}");
     }
 
 }

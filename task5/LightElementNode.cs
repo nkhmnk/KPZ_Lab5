@@ -4,7 +4,6 @@ using System.Text;
 using System.Linq;
 using task5.State;
 
-
 namespace task5
 {
     public class LightElementNode : LightNode, ILightNodeEnumerable
@@ -15,12 +14,13 @@ namespace task5
 
         // Конструктор класу, який передає tagName до конструктора базового класу
         public LightElementNode(string tagName, DisplayType display = DisplayType.Block, ClosingType closing = ClosingType.Normal)
-            : base(tagName)  // Викликаємо конструктор LightNode і передаємо tagName
+          : base(tagName)  // Викликаємо конструктор LightNode і передаємо tagName
         {
             Display = display;
             Closing = closing;
             children = new List<LightNode>();
             cssClasses = new HashSet<string>();
+            _state = new NormalState(); // Ініціалізація стану
 
             OnCreated();
         }
@@ -31,7 +31,6 @@ namespace task5
         protected virtual void OnStylesApplied() { }
         protected virtual void OnClassListApplied() { }
         protected virtual void OnTextRendered() { }
-
 
         public string TagName { get; }
         public DisplayType Display { get; }
@@ -45,12 +44,12 @@ namespace task5
             OnInserted(child);
         }
 
+        // Додано метод для додавання CSS класу
         public void AddCssClass(string cssClass)
         {
             if (string.IsNullOrWhiteSpace(cssClass))
                 throw new ArgumentException("CSS клас не може бути порожнім", nameof(cssClass));
             cssClasses.Add(cssClass);
-
 
             OnClassListApplied();
             OnStylesApplied();
@@ -122,7 +121,6 @@ namespace task5
             }
         }
 
-
         public IEnumerable<LightNode> EnumerateDepthFirst()
         {
             yield return this;
@@ -160,6 +158,7 @@ namespace task5
                 }
             }
         }
+
         public void SetCssClasses(IEnumerable<string> classes)
         {
             cssClasses.Clear();
@@ -170,26 +169,30 @@ namespace task5
             }
         }
 
-
-        public LightElementNode(string tagName) : base(tagName)
-        {
-            _state = new NormalState(); // Початковий стан
-        }
-
+        // Метод для оновлення стану
         public void SetState(IElementState newState)
         {
             _state = newState;
         }
 
+        // Перевірка та додавання класу через _state
         public void AddClass(string cssClass)
         {
+            if (_state == null)
+            {
+                _state = new NormalState(); // Якщо стан не ініціалізовано, ініціалізуємо його
+            }
             _state.AddClass(this, cssClass);
         }
 
+        // Перевірка та видалення класу через _state
         public void RemoveClass(string cssClass)
         {
+            if (_state == null)
+            {
+                _state = new NormalState(); // Якщо стан не ініціалізовано, ініціалізуємо його
+            }
             _state.RemoveClass(this, cssClass);
         }
-
     }
 }

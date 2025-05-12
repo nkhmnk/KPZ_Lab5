@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace task5.State
 {
-    internal interface IElementState
+    public interface IElementState
     {
+        void AddClass(LightElementNode element, string cssClass);
+        void RemoveClass(LightElementNode element, string cssClass);
     }
+
 }
