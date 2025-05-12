@@ -10,14 +10,17 @@ namespace task5
     {
         public string Text { get; }
 
-        public LightTextNode(string text)
+        // Тепер передаємо tagName в конструктор базового класу
+        public LightTextNode(string tagName, string text) : base(tagName)
         {
             Text = text ?? throw new ArgumentNullException(nameof(text));
             OnTextRendered();
         }
 
         protected virtual void OnTextRendered() { }
+
         public override string OuterHTML => Text;
         public override string InnerHTML => Text;
     }
+
 }

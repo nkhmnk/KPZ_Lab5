@@ -2,6 +2,7 @@
 using System;
 using System.Text;
 using System.Linq;
+using task5.State;
 
 
 namespace task5
@@ -10,6 +11,19 @@ namespace task5
     {
         private readonly List<LightNode> children;
         private readonly HashSet<string> cssClasses;
+        private IElementState _state;
+
+        // Конструктор класу, який передає tagName до конструктора базового класу
+        public LightElementNode(string tagName, DisplayType display = DisplayType.Block, ClosingType closing = ClosingType.Normal)
+            : base(tagName)  // Викликаємо конструктор LightNode і передаємо tagName
+        {
+            Display = display;
+            Closing = closing;
+            children = new List<LightNode>();
+            cssClasses = new HashSet<string>();
+
+            OnCreated();
+        }
 
         protected virtual void OnCreated() { }
         protected virtual void OnInserted(LightNode child) { }
@@ -24,17 +38,6 @@ namespace task5
         public ClosingType Closing { get; }
         public IReadOnlyCollection<string> CssClasses => cssClasses;
         public int ChildCount => children.Count;
-
-        public LightElementNode(string tagName, DisplayType display = DisplayType.Block, ClosingType closing = ClosingType.Normal)
-        {
-            TagName = tagName ?? throw new ArgumentNullException(nameof(tagName));
-            Display = display;
-            Closing = closing;
-            children = new List<LightNode>();
-            cssClasses = new HashSet<string>();
-
-            OnCreated();
-        }
 
         public void AddChild(LightNode child)
         {
@@ -165,6 +168,27 @@ namespace task5
                 if (!string.IsNullOrWhiteSpace(cls))
                     cssClasses.Add(cls);
             }
+        }
+
+
+        public LightElementNode(string tagName) : base(tagName)
+        {
+            _state = new NormalState(); // Початковий стан
+        }
+
+        public void SetState(IElementState newState)
+        {
+            _state = newState;
+        }
+
+        public void AddClass(string cssClass)
+        {
+            _state.AddClass(this, cssClass);
+        }
+
+        public void RemoveClass(string cssClass)
+        {
+            _state.RemoveClass(this, cssClass);
         }
 
     }
