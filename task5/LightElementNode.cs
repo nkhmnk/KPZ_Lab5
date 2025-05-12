@@ -3,6 +3,7 @@ using System;
 using System.Text;
 using System.Linq;
 using task5.State;
+using task5.Visitor;
 
 namespace task5
 {
@@ -193,6 +194,16 @@ namespace task5
                 _state = new NormalState(); // Якщо стан не ініціалізовано, ініціалізуємо його
             }
             _state.RemoveClass(this, cssClass);
+        }
+
+        public override void Accept(IElementVisitor visitor)
+        {
+            visitor.Visit(this);
+
+            foreach (var child in children)
+            {
+                child.Accept(visitor);
+            }
         }
     }
 }
