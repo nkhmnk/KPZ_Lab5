@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|solutionrelative:task5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\changeclasscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|solutionrelative:task5\\changeclasscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|e:\\ipz234_khnv\\visual studio\\kpz\\lab5\\lab5\\task5\\lightelementnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|solutionrelative:task5\\lightelementnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|solutionrelative:task5\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\addelementcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|solutionrelative:task5\\addelementcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\commandinvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|solutionrelative:task5\\commandinvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\removeelementcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|solutionrelative:task5\\removeelementcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\lightnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{106F3E87-88F2-4A80-9887-43AC2E97E888}|task5\\task5.csproj|solutionrelative:task5\\lightnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LightNode.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\LightNode.cs",
+              "RelativeDocumentMoniker": "task5\\LightNode.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\LightNode.cs",
+              "RelativeToolTip": "task5\\LightNode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:54:36.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChangeClassCommand.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\ChangeClassCommand.cs",
+              "RelativeDocumentMoniker": "task5\\ChangeClassCommand.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\ChangeClassCommand.cs",
+              "RelativeToolTip": "task5\\ChangeClassCommand.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAxwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:51:51.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LightElementNode.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\LightElementNode.cs",
+              "RelativeDocumentMoniker": "task5\\LightElementNode.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\LightElementNode.cs",
+              "RelativeToolTip": "task5\\LightElementNode.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAwwJ8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:47:13.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\Program.cs",
+              "RelativeDocumentMoniker": "task5\\Program.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\Program.cs",
+              "RelativeToolTip": "task5\\Program.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAkwEUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:58:09.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddElementCommand.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\AddElementCommand.cs",
+              "RelativeDocumentMoniker": "task5\\AddElementCommand.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\AddElementCommand.cs",
+              "RelativeToolTip": "task5\\AddElementCommand.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:43:47.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\ICommand.cs",
+              "RelativeDocumentMoniker": "task5\\ICommand.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\ICommand.cs",
+              "RelativeToolTip": "task5\\ICommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:42:49.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RemoveElementCommand.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\RemoveElementCommand.cs",
+              "RelativeDocumentMoniker": "task5\\RemoveElementCommand.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\RemoveElementCommand.cs",
+              "RelativeToolTip": "task5\\RemoveElementCommand.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:56:11.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CommandInvoker.cs",
+              "DocumentMoniker": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\CommandInvoker.cs",
+              "RelativeDocumentMoniker": "task5\\CommandInvoker.cs",
+              "ToolTip": "E:\\ipz234_khnv\\Visual Studio\\KPZ\\Lab5\\lab5\\task5\\CommandInvoker.cs",
+              "RelativeToolTip": "task5\\CommandInvoker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:57:18.761Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1329,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

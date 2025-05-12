@@ -53,6 +53,14 @@ namespace task5
             OnStylesApplied();
         }
 
+        // Додано метод для видалення CSS класу
+        public void RemoveCssClass(string cssClass)
+        {
+            if (string.IsNullOrWhiteSpace(cssClass))
+                throw new ArgumentException("CSS клас не може бути порожнім", nameof(cssClass));
+            cssClasses.Remove(cssClass);
+        }
+
         public override string OuterHTML => GenerateHTML(0);
         public override string InnerHTML => GenerateHTML(0, innerOnly: true);
 
@@ -101,6 +109,17 @@ namespace task5
             return sb.ToString();
         }
 
+        public void RemoveChild(LightNode child)
+        {
+            if (child == null) throw new ArgumentNullException(nameof(child));
+
+            if (children.Remove(child))
+            {
+                OnRemoved(child);
+            }
+        }
+
+
         public IEnumerable<LightNode> EnumerateDepthFirst()
         {
             yield return this;
@@ -136,6 +155,15 @@ namespace task5
                         queue.Enqueue(child);
                     }
                 }
+            }
+        }
+        public void SetCssClasses(IEnumerable<string> classes)
+        {
+            cssClasses.Clear();
+            foreach (var cls in classes)
+            {
+                if (!string.IsNullOrWhiteSpace(cls))
+                    cssClasses.Add(cls);
             }
         }
 
