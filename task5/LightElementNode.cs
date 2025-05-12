@@ -196,12 +196,13 @@ namespace task5
             _state.RemoveClass(this, cssClass);
         }
 
-        public void Accept(IElementVisitor visitor)
+        public override void Accept(IElementVisitor visitor)
         {
             visitor.Visit(this);
+
             foreach (var child in children)
             {
-                child.Accept(visitor); // Додаємо рекурсивний виклик для дітей
+                child.Accept(visitor);
             }
         }
     }

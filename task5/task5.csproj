@@ -60,6 +60,8 @@
     <Compile Include="State\IElementState.cs" />
     <Compile Include="State\NormalState.cs" />
     <Compile Include="State\SelectedState.cs" />
+    <Compile Include="Visitor\AddAttributeVisitor.cs" />
+    <Compile Include="Visitor\IElementVisitor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

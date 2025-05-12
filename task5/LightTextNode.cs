@@ -22,7 +22,7 @@ namespace task5
 
         public override string InnerHTML => Text + (string.IsNullOrEmpty(AdditionalText) ? "" : $" {AdditionalText}");
 
-        public void Accept(IElementVisitor visitor)
+        public override void Accept(IElementVisitor visitor)
         {
             visitor.Visit(this);
         }

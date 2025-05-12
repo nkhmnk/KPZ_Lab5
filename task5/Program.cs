@@ -3,6 +3,7 @@ using System.Text;
 using task5;
 using task5.State;
 using System.Collections.Generic;
+using task5.Visitor;
 
 namespace LightHTML
 {
@@ -89,6 +90,23 @@ namespace LightHTML
             div.AddClass("selected");
             Console.WriteLine("\n=== HTML після зміни на 'Selected' ===");
             Console.WriteLine(div.OuterHTML);
+
+            //VISITOR
+            div.AddCssClass("my-div");
+
+            var span = new LightElementNode("span");
+            span.AddChild(new LightTextNode("Hello World"));
+
+            div.AddChild(span);
+
+            // Створюємо відвідувача для додавання атрибутів
+            var addIdVisitor = new AddAttributeVisitor("id", "myElement");
+
+            // Викликаємо Accept для відвідувача
+            div.Accept(addIdVisitor);
+
+            Console.WriteLine(div.OuterHTML);
+
         }
     }
 }
