@@ -157,6 +157,15 @@ namespace task5
                 }
             }
         }
+        public void SetCssClasses(IEnumerable<string> classes)
+        {
+            cssClasses.Clear();
+            foreach (var cls in classes)
+            {
+                if (!string.IsNullOrWhiteSpace(cls))
+                    cssClasses.Add(cls);
+            }
+        }
 
     }
 }

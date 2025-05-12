@@ -10,8 +10,7 @@ namespace LightHTML
         {
             Console.OutputEncoding = Encoding.UTF8;
 
-            // var ul = new LightElementNode("ul");
-            var ul = new DebugElementNode("ul");
+            var ul = new LightElementNode("ul");
             ul.AddCssClass("my-list");
 
             var li1 = new LightElementNode("li");
@@ -27,13 +26,34 @@ namespace LightHTML
             ul.AddChild(li2);
             ul.AddChild(li3);
 
-            Console.WriteLine("=== Зовнішній HTML ===");
-            Console.WriteLine(ul.OuterHTML);
+            // Виконуємо команди
+            var div = new LightElementNode("div");
+            var p1 = new LightElementNode("p");
+            p1.AddChild(new LightTextNode("Hello"));
 
-            Console.WriteLine("=== Внутрішній HTML ===");
-            Console.WriteLine(ul.InnerHTML);
+            var invoker = new CommandInvoker();
 
-            //Ітерація
+            // Команди
+            var addCommand = new AddElementCommand(div, p1);
+            invoker.ExecuteCommand(addCommand);
+
+            var changeClassCommand = new ChangeClassCommand(p1, "highlight");
+            invoker.ExecuteCommand(changeClassCommand);
+
+            Console.WriteLine("=== HTML після виконання команд ===");
+            Console.WriteLine(div.OuterHTML);
+
+            // Відміна останньої команди (ChangeClassCommand)
+            invoker.Undo();
+            Console.WriteLine("\n=== HTML після скасування зміни класу ===");
+            Console.WriteLine(div.OuterHTML);
+
+            // Відміна попередньої команди (AddElementCommand)
+            invoker.Undo();
+            Console.WriteLine("\n=== HTML після скасування додавання елемента ===");
+            Console.WriteLine(div.OuterHTML);
+
+            // Ітерація через елементи
             Console.WriteLine("=== DFS (глибина) ===");
             foreach (var node in ul.EnumerateDepthFirst())
             {
@@ -45,7 +65,6 @@ namespace LightHTML
             {
                 Console.WriteLine(node.OuterHTML);
             }
-
         }
     }
 }

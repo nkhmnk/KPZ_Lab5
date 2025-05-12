@@ -43,14 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddElementCommand.cs" />
+    <Compile Include="ChangeClassCommand.cs" />
+    <Compile Include="CommandInvoker.cs" />
     <Compile Include="DebugElementNode.cs" />
     <Compile Include="Enums.cs" />
+    <Compile Include="ICommand.cs" />
     <Compile Include="ILightNodeEnumerable.cs" />
     <Compile Include="LightElementNode.cs" />
     <Compile Include="LightNode.cs" />
     <Compile Include="LightTextNode.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemoveElementCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

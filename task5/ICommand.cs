@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace task5
 {
-    internal interface ICommand
+    public interface ICommand
     {
+        void Execute();
+        void Undo();
     }
 }

@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace task5
 {
@@ -10,24 +8,23 @@ namespace task5
     {
         private readonly LightElementNode element;
         private readonly string newClass;
-        private readonly string oldClass;
+        private List<string> oldClasses;
 
         public ChangeClassCommand(LightElementNode element, string newClass)
         {
-            this.element = element;
+            this.element = element ?? throw new ArgumentNullException(nameof(element));
             this.newClass = newClass;
-            this.oldClass = string.Join(" ", element.CssClasses);
         }
 
         public void Execute()
         {
-            element.AddCssClass(newClass);
+            oldClasses = element.CssClasses.ToList(); // Зберігаємо попередні CSS-класи
+            element.AddCssClass(newClass);            // Додаємо новий клас
         }
 
         public void Undo()
         {
-            element.RemoveCssClass(newClass);
-            element.AddCssClass(oldClass);
+            element.SetCssClasses(oldClasses); // Відновлюємо збережені CSS-класи
         }
     }
 }
